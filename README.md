@@ -5,12 +5,19 @@ web_spider
 
 
 用到的开源项目：
+
 pytesser：
+
 https://code.google.com/p/pytesser/
+
 修改pytesser.py在调用tesseract的时候加了'nobatch', 'digits'2个参数，以便识别数字(手机号)。
 
 Tesseract engine：
+
 https://code.google.com/p/tesseract-ocr/
+
 PIL：
+
 http://www.pythonware.com/products/pil/
+
 
